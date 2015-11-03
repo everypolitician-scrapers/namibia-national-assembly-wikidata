@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'scraperwiki', github: 'openaustralia/scraperwiki-ruby', branch: 'morph_defaults'
+gem 'wikidata-fetcher', github: 'everypolitician/wikidata-fetcher'
+gem 'colorize'
+gem 'mediawiki_api'
+gem 'nokogiri'
+gem 'open-uri-cached'
+gem 'pry'
+gem 'rest-client'
