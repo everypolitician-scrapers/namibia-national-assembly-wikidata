@@ -34,4 +34,3 @@ names[1] = EveryPolitician::Wikidata.wikipedia_xpath(
 ) 
 
 EveryPolitician::Wikidata.scrape_wikidata(names: { en: names.values.flatten.uniq })
-warn EveryPolitician::Wikidata.notify_rebuilder
